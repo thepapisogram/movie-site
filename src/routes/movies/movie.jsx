@@ -17,7 +17,7 @@ const Movie = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://www.omdbapi.com/?apikey=${api_key}&t=${id}&plot=full`
+          `https://www.omdbapi.com/?apikey=${api_key}&t=${id}&plot=full`
         );
         setData(response.data);
       } catch (error) {

@@ -26,7 +26,7 @@ const Animations = (props) => {
     const fetchData = async () => {
       try {
         const requests = animations.map((title) =>
-          axios.get(`http://www.omdbapi.com/?apikey=${api_key}&t=${title}`)
+          axios.get(`https://www.omdbapi.com/?apikey=${api_key}&t=${title}`)
         );
 
         const responses = await Promise.all(requests);
