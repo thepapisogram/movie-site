@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 100px;
+    padding: 20px;
+    background: #111;
+    height: 100vh;
+}
+#sidebar > *{
+    margin: 10px 0px;
+}
+#page{
+    background: #131313;
+    height: 100vh;
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.sidebar-icon{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0;
+    padding: 0px;
+}
+
+#homeCarousel img{
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#layer1{
+    height: 500px;
+    width: 300px;
+    background: #007bff;
+    border-radius: 20px;
+}
+
+#layer2{
+    width: 100%;
+    height: 100%;
+    background: #ffc107;
+    border-radius: 20px;
+    transform: rotate(10deg);
+}
+
+#layer3{
+    width: 100%;
+    height: 100%;
+    background: #111;
+    border-radius: 20px;
+    transform: rotate(-20deg);
+    border: 10px double #ffc107;
+}
+
+#layer4{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 20px;
+    padding: 30px;
+    /* transform: rotate(10deg); */
+}
+
+#layer4 > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}#layer4 > div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20%;
+    /* background: red; */
+}#layer4 > div:nth-child(2) *{
+    margin: 0;
+}
+
+#layer4 img{
+    width: 200px;
+    height: 200px;
+    padding: 4px;
+    border-radius: 50%;
+    border: 5px solid #ffc107;
+    object-fit: cover;
+    margin: 0px auto;
+}
+
+#social-icons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+
+.social-ico{
+    width: 50px;
+    height: 50px;
+}
+
+.movie-poster{
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid white;
+    image-rendering: optimizeSpeed;
+    transition: 100ms linear;
+}
+
+.movie-poster:hover{
+    border: 15px double #ffc107aa;
+    border-radius: 10px;
+}
+
+.movie-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.movie-grid > div{
+    cursor: pointer;
+    background: #222;
+    transition: 100ms linear;
+}
+
+.movie-grid > div:hover{
+    background: #111;
+}
+
+.movie-grid img{
+    width: 100%;
+    height: 400px;
+}

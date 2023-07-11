@@ -1,0 +1,58 @@
+api key
+426ed633
+
+extraction
+{"Title":"Extraction","Year":"2020","Rated":"R","Released":"24 Apr 2020","Runtime":"116 min","Genre":"Action, Thriller","Director":"Sam Hargrave","Writer":"Joe Russo, Ande Parks, Anthony Russo","Actors":"Chris Hemsworth, Bryon Lerum, Ryder Lerum","Plot":"Tyler Rake, a fearless black market mercenary, embarks on the most deadly extraction of his career when he's enlisted to rescue the kidnapped son of an imprisoned international crime lord.","Language":"English, Hindi, Bengali","Country":"United States","Awards":"4 wins & 15 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMDJiNzUwYzEtNmQ2Yy00NWE4LWEwNzctM2M0MjE0OGUxZTA3XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.7/10"},{"Source":"Rotten Tomatoes","Value":"67%"},{"Source":"Metacritic","Value":"56/100"}],"Metascore":"56","imdbRating":"6.7","imdbVotes":"228,673","imdbID":"tt8936646","Type":"movie","DVD":"25 Apr 2020","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"}
+
+
+2. School would resume very soon and it makes me unsure of my schedule with the student. So i'm raising that as a
+matter of concern and I wnat to know what you think. For the meantime I can maintain the 2hour period. I'd also
+want to vary the days for our meetings
+
+3. Will there be any form of written contract containing all these details so I can sign
+
+3. The day the student says he will not be able to make it.Does that mean i will not be paid.
+
+
+
+Movie Params
+{
+    "Title": "Batman",
+    "Year": "1989",
+    "Rated": "PG-13",
+    "Released": "23 Jun 1989",
+    "Runtime": "126 min",
+    "Genre": "Action, Adventure",
+    "Director": "Tim Burton",
+    "Writer": "Bob Kane, Sam Hamm, Warren Skaaren",
+    "Actors": "Michael Keaton, Jack Nicholson, Kim Basinger",
+    "Plot": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.",
+    "Language": "English, French, Spanish",
+    "Country": "United States, United Kingdom",
+    "Awards": "Won 1 Oscar. 10 wins & 26 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg",
+    "Ratings": [
+        {
+            "Source": "Internet Movie Database",
+            "Value": "7.5/10"
+        },
+        {
+            "Source": "Rotten Tomatoes",
+            "Value": "74%"
+        },
+        {
+            "Source": "Metacritic",
+            "Value": "69/100"
+        }
+    ],
+    "Metascore": "69",
+    "imdbRating": "7.5",
+    "imdbVotes": "390,458",
+    "imdbID": "tt0096895",
+    "Type": "movie",
+    "DVD": "22 Aug 1997",
+    "BoxOffice": "$251,409,241",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+}
