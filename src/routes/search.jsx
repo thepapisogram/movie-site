@@ -2,6 +2,10 @@ import { useState } from 'react';
 
 import SearchMovie from "./movies/searchMovie";
 
+const navigatePage = (title) => {
+  window.location = `/movies/${title}`;
+};
+
 export default function Search(){
 
     const [query, setQuery] = useState('');
@@ -22,7 +26,7 @@ export default function Search(){
             placeholder="Search for Movies..."
           />
         </div>
-        <SearchMovie query={query} />
+        <SearchMovie navigator={navigatePage} query={query} />
       </section>
     );
 }
