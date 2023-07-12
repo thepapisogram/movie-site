@@ -29,12 +29,6 @@ const Movie = () => {
     fetchData();
   }, []);
 
-
-
-  // useEffect(() => {
-  //   document.title = `Movie - ${data.Title}`;
-  // });
-
   if (!data) {
     return <Loading />
   }

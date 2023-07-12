@@ -147,3 +147,38 @@
     width: 100%;
     height: 400px;
 }
+
+#movie-search{
+    background: #ffc107;
+    border: 3px solid #ffc107;
+    outline: none!important;
+    margin: 0px auto;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    min-width: 300px;
+    width: 80%;
+    font-size: 1.2rem;
+    transition: 100ms ease-in-out;
+}
+
+#movie-search:hover{
+    background: #ffc107aa;
+}
+
+#movie-search:focus{
+    background: #111;
+    color: #ffc107;
+    border: 3px solid #ffc107;
+}
+#movie-search:focus::placeholder{
+    color: #ffc107aa;
+}
+#movie-search::placeholder{
+    color: #000000aa;
+}
+
+#movie-search-results{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
