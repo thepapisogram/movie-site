@@ -63,12 +63,20 @@ const Movie = () => {
       )}
       {data.Error !== "Movie not found!" && (
         <div className="movie-head">
+          <a className="py-3" href="/movies">
+            <box-icon
+              type="solid"
+              name="chevron-left-circle"
+              size="md"
+              color="#ffc107"
+            ></box-icon>
+          </a>
           <h1 className="text-warning">{data.Title}</h1>
           <p className="text-muted">{data.Genre}</p>
           <div className="row m-0" id="movie-grid-1">
             <div className="d-flex justify-content-start m-0 p-0 col-12 col-xl-4">
               <img
-                className="movie-poster shadow"
+                className="movie-poster shadow mx-auto mx-md-0"
                 src={data.Poster}
                 alt={data.Title}
               />
