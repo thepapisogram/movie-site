@@ -13,7 +13,7 @@ const SearchMovie = (props) => {
         const response = await axios.get(
           `https://www.omdbapi.com/?apikey=${api_key}&s=${props.query}`
         );
-        console.log(response.data.Error)
+        console.log(response)
         setData(response.data.Search);
       } catch (error) {
         console.error("Error fetching movie data:", error);
